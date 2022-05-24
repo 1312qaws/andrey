@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScipt</title>
+	<meta charset="utf-8">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<style type="text/css">
+body{
+	background-color: yellow;
+	font-size: 50px;
+	color: green;
+	font-family: sans-serif;
+}
+p{
+	font-size: 50px;
+	backgrouund-color: blue; 
+	color: blue;
+	text-shadow:orange; -2px; -2px;
+	font-family: 'Roboto', sans-serif;
+    }
+</style>
+</head>
+<body>
+<p>Ми вивчаємо програмування</p>
+<script type="text/javascript">
+let number=+prompt("Введіть число","");
+document.write("Ваше число "+number+"<br>");
+document.write("Квадрат вашого числа "+number*number+"<br>");
+let a=+prompt("Введіть довжину прямокутника у см","");
+let b=+prompt("Введіть ширину прямокутника у см", "");
+document.write("Периметр вашого прямокутника = "+(a+b)*2+" см"+"<br>");
+document.write("Площа вашого прямокутника = "+a*b+" см<sup>2</sup>"+"<br>");
+
+let date=+prompt("Введіть свій рік народження");
+document.write("Вам "+(2022-date)+" років")
+
+</script>
+</body>
+</html>
