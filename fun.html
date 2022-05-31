@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="with=device-width, initial-scale=1">
+	<title>fun</title>
+</head>
+<body>
+<script type="text/javascript">
+
+/*function is Equal(x,y){
+    let digits1 = x.length;
+    let digits2 = y.length;
+    if (digits2 == digits1){
+	return true
+}else{
+	return false
+}
+}
+
+let x = prompt("вкажіть число")
+let x = prompt("вкажіть число")
+alert(isEqual(x,y))*/
+let x = prompt("вкажіть число");
+function OddEven(x){
+let xLength=x.length
+let count1=0;
+let count2;
+for(i=0; i<xLength; i++){
+	if(x[i]%2==1){
+        count1=count1+1
+     }
+
+}
+count2=xLength-count1
+alert("непарні - odd "+count1+"парні - even "+count2)
+if(count1==count2){
+	return 0
+}else if(count1>count2){
+	return 1
+}else{
+	return -1
+}
+}
+alert(OddEven(x))
+
+</script>
+</body>
+</html>
