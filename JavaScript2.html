@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		body{
+			background-color: yellow;
+			font-size: 40px;
+			color: blue;
+		}
+        p{
+        	background-color: orange;
+        	color: green;
+        	font-size: 50px;
+        }
+	</style>
+</head>
+<body>
+<p>Ми вивчаємо програмування </p>
+<script type="text/javascript">
+	
+let number1=+prompt("Введи перше число",0);
+let number2=+prompt("Введіть друге число",0);
+document.write("Перше число "+number1+"<br>");
+document.write("Друге число "+number2+"<br>");
+document.write("Сума чисел "+(number1+number2)+"<br>");
+document.write("Добуток чисел "+(number1*number2)+"<br>");
+if((number2+number1)>10){
+	document.write("Сума чисел > 10"+"<br>");
+}else if ((number2+number1)<10){
+    document.write("Сума чисел < 10"+"<br>");
+}else{
+	document.write("Сума чисел = 10"+"<br>");
+}
+
+</script>
+</body>
+</html>

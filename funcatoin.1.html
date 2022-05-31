@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>power</title>
+</head>
+<body>
+<script type="text/javascript">
+let a = +prompt("введіть число від 0 до 1")
+let b = +prompt("введіть число від 0 до 1")
+if (a < 0 || a > 1 || b < 0 || b > 1){
+	alert("неправильні значення")
+} else {
+	let sum = a + b;
+	alert("сума ваших значень дорівнює " + sum.toFixed(1)) 
+}
+let x = +prompt("Введіть будь-яке значення від 0 до 1:", 0.1)
+let y = +prompt("Введіть будь-яке значення від 0 до 1:", 0.1)
+if (x>0&&x<1&&y>0&&y<1){
+alert( (x + y).toFixed(2) );
+} else{
+alert ("Введіть числа з вказанного діапазону!")
+}
+
+
+</script>
+</body>
+</html>
